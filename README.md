@@ -1,7 +1,7 @@
 # AlumnoWeb
 Pasos para usar EntityFramework
 
-Documentacion: https://learn.microsoft.com/es-es/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-6.0&tabs=visual-studio
+Documentacion: https://learn.microsoft.com/es-es/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-7.0&tabs=visual-studio
 
 1 Agregar paquete Nuget  
 	- Microsoft.EntityFrameworkCore.SqlServer  
