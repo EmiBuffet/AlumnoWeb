@@ -1,5 +1,4 @@
 # AlumnoWeb
-# PersonasWeb
 Pasos para usar EntityFramework
 
 Documentacion: https://learn.microsoft.com/es-es/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-6.0&tabs=visual-studio
