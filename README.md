@@ -9,7 +9,7 @@ Documentacion: https://learn.microsoft.com/es-es/aspnet/core/tutorials/first-mvc
 	
 2 Agregar carpeta Data, crear clase ApplicationDbContext que herede de DbContext.
 
-	 public class AlumnoWebContext : DbContext
+	public class AlumnoWebContext : DbContext
     	{
 
         public AlumnoWebContext(DbContextOptions<AlumnoWebContext> options) : base(options)
@@ -21,8 +21,8 @@ Documentacion: https://learn.microsoft.com/es-es/aspnet/core/tutorials/first-mvc
     
 3 En clase program.cs, agregar las siguientes lineas:
 
-	builder.Services.AddDbContext<PersonasWebContext>(options =>
-	options.UseSqlServer(builder.Configuration.GetConnectionString("PersonasWebContext")));
+	builder.Services.AddDbContext<AlumnoWebContext>(options =>
+	options.UseSqlServer(builder.Configuration.GetConnectionString("AlumnoWebContext")));
       
 4 En el archivo appsetting.json, agregar la conexion a la base de datos
 
