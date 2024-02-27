@@ -9,14 +9,15 @@ Documentacion: https://learn.microsoft.com/es-es/aspnet/core/tutorials/first-mvc
 	
 2 Agregar carpeta Data, crear clase ApplicationDbContext que herede de DbContext.
 
-	public class PersonasWebContext : DbContext
-	{
-		public PersonasWebContext (DbContextOptions<PersonasWebContext> options): base(options)
-		{
-		}
+	 public class AlumnoWebContext : DbContext
+    	{
 
-		public DbSet<PersonasWeb.Models.Persona> Persona { get; set; } = default!;
-    	}  
+        public AlumnoWebContext(DbContextOptions<AlumnoWebContext> options) : base(options)
+        {
+        }
+
+        public DbSet<AlumnoWeb.Models.Alumno> Alumno { get; set; } = default!;
+   	 }
     
 3 En clase program.cs, agregar las siguientes lineas:
 
